@@ -1,5 +1,4 @@
 
-/* GENERAL SETTINGS */
 
 * {
     margin: 0;
@@ -51,7 +50,7 @@ body {
     color: #B89B7B;
 }
 
-/* HERO SECTION */
+
 
 .hero {
     min-height: 100vh;
@@ -129,7 +128,7 @@ body {
     margin-left: 10px;
 }
 
-/* FLOATING DECORATIONS */
+
 
 .decor-circle {
     position: absolute;
@@ -154,7 +153,7 @@ body {
     animation: float 9s ease-in-out infinite reverse;
 }
 
-/* SCROLL INDICATOR */
+
 
 .scroll-indicator {
     position: absolute;
@@ -175,7 +174,7 @@ body {
     animation: scrollLine 1.5s infinite;
 }
 
-/* WELCOME SECTION */
+
 
 .welcome-section {
     padding: 100px 10%;
@@ -208,7 +207,7 @@ body {
     margin: 35px auto 0;
 }
 
-/* FOOTER */
+
 
 footer {
     padding: 25px;
@@ -219,7 +218,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/* ANIMATIONS */
+
 
 @keyframes fadeUp {
     from {
@@ -269,7 +268,7 @@ footer {
     }
 }
 
-/* ENTRANCE EFFECTS */
+
 
 .hero-content {
     animation: fadeUp 1.2s ease both;
@@ -290,7 +289,6 @@ footer {
     transform: translateY(0);
 }
 
-/* MOBILE RESPONSIVENESS */
 
 @media (max-width: 600px) {
     .navbar {
@@ -324,7 +322,7 @@ footer {
     }
 }
 
-/* ACCESSIBILITY */
+
 
 @media (prefers-reduced-motion: reduce) {
     *,
