@@ -325,3 +325,39 @@ footer {
     }
 
 }
+
+/* NEW CONTENT SECTIONS */
+
+.content-section {
+    padding: 90px 10%;
+    text-align: center;
+    background-color: #F5EFE6;
+}
+
+.content-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.content-section h2 span {
+    color: #A17C5A;
+}
+
+.content-section > p:not(.section-label) {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    color: #79695D;
+}
+
+.alternate {
+    background-color: #EDE2D5;
+}
+
+.section-description {
+    margin-bottom: 35px !important;
+}
+
+.contact-btn {
+    margin-top: 15px;
+}
