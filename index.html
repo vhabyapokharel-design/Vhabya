@@ -4,40 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">MY PORTFOLIO.</h2>
-        </nav>
+    <header class="navbar">
+        <a href="#home" class="logo">MY PORTFOLIO.</a>
+        <a href="#home" class="home-link">HOME</a>
     </header>
 
     <main>
         <section class="hero" id="home">
-            <p class="section-label">WELCOME TO MY WEBSITE</p>
 
-            <h1>Hello, I'm <span>Your Name</span>.</h1>
+            <div class="decor-circle circle-one"></div>
+            <div class="decor-circle circle-two"></div>
 
-            <h2>A Student & Creative Thinker</h2>
+            <div class="hero-content">
+                <p class="section-label">WELCOME TO MY LITTLE CORNER</p>
 
-            <p class="hero-description">
-                Welcome to my personal portfolio.
-                This is a little space where I share who I am,
-                my interests and my journey.
+                <h1>
+                    Hello, I'm
+                    <span class="name">Your Name.</span>
+                </h1>
+
+                <h2>A Student & Creative Thinker</h2>
+
+                <p class="hero-description">
+                    Welcome to my personal space on the internet.
+                    A little introduction to me, my creativity,
+                    and the things that inspire me.
+                </p>
+
+                <a href="#welcome" class="hero-btn">
+                    Explore More <span>↓</span>
+                </a>
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                SCROLL DOWN
+            </div>
+
+        </section>
+
+        <section class="welcome-section" id="welcome">
+            <p class="section-label">A LITTLE SOMETHING ABOUT THIS SPACE</p>
+
+            <h2>Simple things. <span>Big dreams.</span></h2>
+
+            <p>
+                This website is a reflection of my journey,
+                ideas and personality. Take a moment, look around
+                and enjoy your visit!
             </p>
+
+            <div class="welcome-line"></div>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 My Portfolio. All rights reserved.</p>
+        <p>Made with love · © 2026 My Portfolio</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
