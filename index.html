@@ -10,24 +10,27 @@
 
     <title>My Portfolio | Home</title>
 
-    
+    <!-- Connect CSS -->
     <link rel="stylesheet" href="style.css">
 
-   
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
           rel="stylesheet">
+
 </head>
 
 <body>
 
-  
+    <!-- NAVIGATION BAR -->
+
     <header>
+
         <nav class="navbar">
 
-            <a href="index.html" class="logo">
+            <a href="#home" class="logo">
                 MY PORTFOLIO.
             </a>
 
@@ -39,19 +42,30 @@
             </button>
 
             <ul class="nav-links" id="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="#home" class="active">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
             </ul>
 
         </nav>
+
     </header>
 
 
-    
+    <!-- MAIN CONTENT -->
+
     <main>
+
+
+        <!-- HOME SECTION -->
 
         <section class="hero" id="home">
 
@@ -62,38 +76,44 @@
                 </p>
 
                 <h1>
-                    Hello, I'm <span>Vhabya</span>
+                    Hello, I'm <span>Your Name.</span>
                 </h1>
 
                 <h2>
-                    Student. Nice. Hardworking.
+                    Student. Creator. Dreamer.
                 </h2>
 
                 <p class="description">
-                    I'm a passionate student who loves doing things I want to. I love to go out with my friends and families. I also enjoy eating and drinking different types of food.
+                    I'm a passionate student who loves learning,
+                    exploring new ideas and creating meaningful things.
+                    Welcome to my little corner of the internet!
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="about.html" class="btn primary-btn">
+                    <a href="#about" class="btn primary-btn">
                         Discover More
                     </a>
 
+                    <a href="#projects" class="btn secondary-btn">
+                        View My Work
+                    </a>
 
                 </div>
 
             </div>
 
-
-           
-
         </section>
 
 
-     
+
+        <!-- WELCOME SECTION -->
+
         <section class="welcome">
 
-            <p class="section-label">GET TO KNOW ME</p>
+            <p class="section-label">
+                GET TO KNOW ME
+            </p>
 
             <h2>
                 A little about <span>my journey.</span>
@@ -105,47 +125,196 @@
                 collection of my interests, skills and projects.
             </p>
 
-            <a href="about.html" class="text-link">
+            <a href="#about" class="text-link">
                 Read My Story →
             </a>
 
         </section>
 
 
-       
-        <section class="quick-links">
 
-            <a href="skills.html" class="quick-card">
-                <h3>My Skills</h3>
-                <p>Things I know and love doing.</p>
-                <span>Explore →</span>
-            </a>
+        <!-- ABOUT SECTION -->
 
-           
+        <section class="content-section" id="about">
 
-            <a href="contact.html" class="quick-card">
-                <h3>Get in Touch</h3>
-                <p>Let's connect and create something.</p>
-                <span>Explore →</span>
+            <p class="section-label">
+                WHO AM I?
+            </p>
+
+            <h2>
+                About <span>Me.</span>
+            </h2>
+
+            <p>
+                Hello! I'm Vhabya, a student who enjoys
+                learning new things, exploring creativity
+                and developing new skills.
+
+                I believe that every opportunity helps me
+                grow both personally and professionally.
+
+                This portfolio represents my journey,
+                interests, education and achievements.
+            </p>
+
+        </section>
+
+
+
+        <!-- SKILLS SECTION -->
+
+        <section class="content-section alternate" id="skills">
+
+            <p class="section-label">
+                WHAT I CAN DO
+            </p>
+
+            <h2>
+                My <span>Skills.</span>
+            </h2>
+
+            <p class="section-description">
+                Here are some of the skills I have developed
+                through learning and experience.
+            </p>
+
+            <div class="quick-links">
+
+                <div class="quick-card">
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Creating the structure of websites
+                        using HTML.
+                    </p>
+
+                </div>
+
+
+                <div class="quick-card">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Designing websites with layouts,
+                        colours and styling.
+                    </p>
+
+                </div>
+
+
+                <div class="quick-card">
+
+                    <h3>Communication</h3>
+
+                    <p>
+                        Expressing ideas and working
+                        effectively with others.
+                    </p>
+
+                </div>
+
+
+                <div class="quick-card">
+
+                    <h3>Creativity</h3>
+
+                    <p>
+                        Developing unique ideas and
+                        finding creative solutions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PROJECTS SECTION -->
+
+        <section class="content-section" id="projects">
+
+            <p class="section-label">
+                MY WORK
+            </p>
+
+    
+            </p>
+
+            <div class="quick-links">
+
+                <div class="quick-card">
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A personal website created using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                </div>
+
+
+
+            
+
+
+
+        <!-- CONTACT SECTION -->
+
+        <section class="content-section alternate" id="contact">
+
+            <p class="section-label">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Contact <span>Me.</span>
+            </h2>
+
+            <p>
+                Thank you for visiting my portfolio!
+
+                If you would like to connect, collaborate
+                or simply say hello, feel free to reach out.
+            </p>
+
+            <a href="mailto:vhabya.pokharel@kavyaschool.edu.np"
+               class="btn primary-btn contact-btn">
+                Email Me
             </a>
 
         </section>
 
+
     </main>
 
 
-  
+
+    <!-- FOOTER -->
+
     <footer>
 
-        <p>© 2026 Vhabya. All Rights Reserved.</p>
+        <p>
+            © 2026 Vhabya. All Rights Reserved.
+        </p>
 
-        <p>Designed with creativity and care.</p>
+        <p>
+            Designed with creativity and care.
+        </p>
 
     </footer>
 
 
-   
+
+    <!-- CONNECT JAVASCRIPT -->
+
     <script src="script.js"></script>
 
+
 </body>
+
 </html>
