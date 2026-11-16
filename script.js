@@ -1,43 +1,27 @@
 
+// Welcome message
+console.log("Welcome to my portfolio!");
 
+// Scroll reveal animation
+const revealElements = document.querySelectorAll(
+    ".welcome-section, footer"
+);
 
-const menuToggle = document.getElementById("menu-toggle");
-
-const navLinks = document.getElementById("nav-links");
-
-
-
-
-menuToggle.addEventListener("click", function() {
-
-    navLinks.classList.toggle("show");
-
-    const isOpen = navLinks.classList.contains("show");
-
-    menuToggle.setAttribute("aria-expanded", isOpen);
-
-    menuToggle.textContent = isOpen ? "✕" : "☰";
-
+revealElements.forEach(element => {
+    element.classList.add("reveal");
 });
 
-
-
-
-document.querySelectorAll(".nav-links a").forEach(link => {
-
-    link.addEventListener("click", function() {
-
-        navLinks.classList.remove("show");
-
-        menuToggle.setAttribute("aria-expanded", "false");
-
-        menuToggle.textContent = "☰";
-
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+        }
     });
-
+}, {
+    threshold: 0.15
 });
 
-
-
-
-console.log("Welcome to my portfolio website!");
+revealElements.forEach(element => {
+    observer.observe(element);
+});
